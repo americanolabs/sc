@@ -48,7 +48,9 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script DeployStakingArbitrum --rpc-url arbitrum-sepolia --etherscan-api-key arbitrum-sepolia --verify --broadcast -vvv
+
+$ forge script DeployStakingDecaf --rpc-url decaf-testnet --broadcast -vvv
 ```
 
 ### Cast
