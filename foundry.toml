@@ -3,4 +3,9 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+[rpc_endpoints]
+arbitrum-sepolia = "https://arb-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
+decaf-testnet = "https://rollup-v1.optifi-agent.xyz"
+
+[etherscan]
+arbitrum-sepolia = { key = "${ARBISCAN_API_KEY}", url = "https://api-sepolia.arbiscan.io/api" }
