@@ -5,7 +5,7 @@ libs = ["lib"]
 
 [rpc_endpoints]
 arbitrum-sepolia = "https://arb-sepolia.g.alchemy.com/v2/${API_KEY_ALCHEMY}"
-decaf-testnet = "https://rollup-v1.optifi-agent.xyz"
+decaf-testnet = "https://americano-rollup-v1.comingdotsoon.xyz"
 
 [etherscan]
 arbitrum-sepolia = { key = "${ARBISCAN_API_KEY}", url = "https://api-sepolia.arbiscan.io/api" }
